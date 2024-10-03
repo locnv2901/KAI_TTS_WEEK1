@@ -1,0 +1,10 @@
+4.	Đổi sang số nhị phân
+của 1 số nguyên dương n
+Ví dụ nhập sao số dương 8
+in ra màn hình số nhị phân của nó là 1000
+Input : Số nguyên dương n từ bàn phím
+(Ycau check dữ liệu nhập đúng
+ nếu sai thông báo lỗi yêu cầu nhập lại)
+Output: Số nhị phân của số n
+7 -> 111
+9 -> 1001

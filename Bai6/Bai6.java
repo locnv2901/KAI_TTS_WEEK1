@@ -19,7 +19,7 @@ public class Bai6 {
         }
 
         for (Map.Entry<Character, Integer> entry: elementCountMap.entrySet()) {
-            System.out.print(entry.getKey() + " : " + entry.getValue() + " ;");
+            System.out.print(entry.getKey() + " : " + entry.getValue() + "\t");
         }
 
     }

@@ -1,0 +1,8 @@
+6.	Đầu vào là một chuỗi ký tự S bất kỳ được
+nhập từ bàn phím. Viết chương trình tìm tất
+cả các ký tự bị lặp và số lần lặp của ký tự
+đó trong chuỗi ký tự S (không tính ký tự space,
+không phân biệt hoa thường).
+Ex: Input S = hoc lap trinh o kai asia.
+code nhieu thi se nhanh len trinh
+Output : h : 7; o : 3; ….
