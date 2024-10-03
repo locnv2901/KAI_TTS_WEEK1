@@ -32,13 +32,13 @@ public class Bai9 {
             choice = sc.nextInt();
             switch (choice) {
                 case 1:
-                    System.out.println("Bill: " + calculateElectricityBill());
+                    calculateElectricityBill();
                     break;
                 case 2:
                     checkTriangle();
                     break;
                 case 3:
-                    System.out.println("Số đảo ngược: " + reverseInteger());
+                    reverseInteger();
                     break;
                 case 4:
                     convertToBinary();
@@ -56,7 +56,7 @@ public class Bai9 {
                     checkPhoneNumber();
                     break;
                 case 9:
-                    System.out.println("Thoát chương trình.");
+                    System.out.println("Exit.");
                     break;
                 default:
                     System.out.println("Lựa chọn không hợp lệ, vui lòng chọn lại.");
@@ -66,9 +66,9 @@ public class Bai9 {
         } while (choice != 9);
     }
 
-    public static double calculateElectricityBill() {
+    public static void calculateElectricityBill() {
         Scanner sc = new Scanner(System.in);
-        return Bai1.calculated(Bai1.getElecNumber(sc));
+        System.out.println("Bill: " + Bai1.calculated(Bai1.getElecNumber(sc)));
     }
 
     public static void checkTriangle() {
@@ -77,9 +77,9 @@ public class Bai9 {
         System.out.println("3 cạnh trên tạo thành " + Bai2.checkTriangle(a,b,c).getDescription());
     }
 
-    public static int reverseInteger() {
+    public static void reverseInteger() {
         Scanner sc = new Scanner(System.in);
-        return Bai3.reverse(Bai3.getNumber(sc));
+        System.out.println("Reverse number: " + Bai3.reverse(Bai3.getNumber(sc)));
     }
 
     public static void convertToBinary() {
@@ -92,12 +92,12 @@ public class Bai9 {
         Scanner sc = new Scanner(System.in);
         int n = Bai5.getNumber(sc);
         int[] A = new int[n];
-        System.out.println("Nhập các phần tử của mảng A:");
+        System.out.println("Enter array A elements: ");
         for (int i = 0; i < n; i++) {
             A[i] = sc.nextInt();
         }
         ArrayList<Integer> lis = Bai5.findLongestIncreasingSubsequence(A);
-        System.out.println("Dãy con tăng dài nhất là: " + lis);
+        System.out.println("The longest increasing subsequence is: " + lis);
     }
 
     public static void findRepeatedCharacter() {
@@ -118,12 +118,12 @@ public class Bai9 {
 
     public static void checkPhoneNumber() {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Nhập số điện thoại cần kiểm tra: ");
+        System.out.print("Enter the phone number to check: ");
         String phoneNumber = sc.nextLine();
         if (Bai8.isValidPhoneNumber(phoneNumber)) {
-            System.out.println("Số điện thoại hợp lệ.");
+            System.out.println("Valid phone number.");
         } else {
-            System.out.println("Số điện thoại không hợp lệ.");
+            System.out.println("Invalid phone number.");
         }
     }
 }

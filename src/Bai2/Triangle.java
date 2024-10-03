@@ -18,6 +18,6 @@ public enum Triangle {
     }
 
     public String getName() {
-        return this.name(); // Trả về tên của enum
+        return this.name();
     }
 }
