@@ -26,24 +26,29 @@ public class Bai5 {
     }
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        try {
+        while (true) {
+            try {
 
-            List<Integer> arr = new ArrayList<>();
-            System.out.print("Size Array : ");
-            int size = scanner.nextInt();
-            
-            int[] a = new int[size];
-    
-            System.out.println("Enter Array:");
-            for (int i = 0; i < size; i++) {
-                System.out.print("Enter num array " + (i + 1) + ": ");
-                a[i] = scanner.nextInt(); // Đọc số từ bàn phím và lưu vào mảng
+                List<Integer> arr = new ArrayList<>();
+                System.out.print("Size Array : ");
+                int size = scanner.nextInt();
+                
+                int[] a = new int[size];
+        
+                System.out.println("Enter Array:");
+                for (int i = 0; i < size; i++) {
+                    System.out.print("Enter num array " + (i + 1) + ": ");
+                    a[i] = scanner.nextInt(); // Đọc số từ bàn phím và lưu vào mảng
+                }
+                System.out.println("Init Array :" + Arrays.toString(a));
+                arr = IncreaseArr(a);
+                System.out.println("result :" + arr);
+                break;
+            } catch (Exception e) {
+                System.out.println("Error. Enter again");
+                scanner.nextLine();
             }
-            System.out.println("Init Array :" + Arrays.toString(a));
-            arr = IncreaseArr(a);
-            System.out.println("result :" + arr);
-        } catch (Exception e) {
-            e.printStackTrace();
+            
         }
     }
 }

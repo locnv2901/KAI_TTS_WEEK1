@@ -14,9 +14,9 @@ public class Bai4 {
             binary.add(0); 
         }
         while (n > 0) {
-            int a = n % 2; // Lấy phần dư
+            int a = n % 2; // Lấy  dư
             binary.add(a); 
-            n = n / 2; // Chia cho 2 để cập nhật n
+            n = n / 2; 
         }
 
         Collections.reverse(binary);
@@ -43,11 +43,12 @@ public class Bai4 {
                 }else{
                     String bina = DecBina(dec);
                     System.out.println("Binary :" +  bina);
+                    break;
                 }
                 
             } catch (Exception e) {
                 System.out.println("Error: Invalid input. Please enter a positive integer.");
-                scanner.nextInt(); 
+                scanner.nextLine(); 
             }
             
         }

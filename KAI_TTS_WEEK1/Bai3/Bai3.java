@@ -26,11 +26,23 @@ public class Bai3 {
     }
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter number you want reverve :");
-        int number = scanner.nextInt();
-        int num = NumberReverse(number);
+        while (true) {
+            try {
+           
+                System.out.println("Enter number you want reverve :");
+                int number = scanner.nextInt();
+                int num = NumberReverse(number);
+                
+                System.out.println("Reverse num :"+ num);
+                break;
+            } catch (Exception e) {
+               
+                System.out.println("Error. Enter number again");
+                scanner.nextLine();
+            }
+            
+        }
 
-        System.out.println("Reverse num :"+ num);
     }
     
 
