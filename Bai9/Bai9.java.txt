@@ -1,0 +1,13 @@
+9.	Viết chương trình tổng hợp của các bài tập trên:
+-	Viết chương trình khi khởi chạy sẽ in ra menu như sau
++ 	+
+1.	Tính tiền điện
+2.	Kiểm tra tam giác
+3.	Đảo ngược số nguyên
+4.	Đổi sang nhị phân
+5.	Dãy con lớn nhất
+6.	Tìm ký tự lặp
+7.	Chia tiền
+8.	Kiểm tra số điện thoại
+9.	Thoát
++ 	+ Chọn chức năng: _

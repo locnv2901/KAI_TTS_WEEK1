@@ -1,0 +1,13 @@
+1.	Viết chương trình nhập vào số điện
+sử dụng của tháng và
+tính tiền điện theo phương pháp lũy tiến
+Nếu số điện sử dụng từ 0 đến 50 thì
+giá mỗi số điện là 1000
+Nếu số điện sử dụng trên 50 thì
+giá mỗi số điện vượt hạn mức là 1200
+Nếu số điện sử dụng trên 100 thì
+ mỗi số điện vượt hạn mức là 1500
+Input: Số điện sử dụng
+(Ycau check dữ liệu nhập đúng
+ nếu sai thông báo lỗi yêu cầu nhập lại)
+Output : Số tiền cần phải trả.

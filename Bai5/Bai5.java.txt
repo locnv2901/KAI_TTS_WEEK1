@@ -1,0 +1,6 @@
+5.	Viết chương trình nhập
+từ bàn phím một số nguyên n ( n> 0 ).
+Tạo mảng số nguyên A với kích thước là n.
+Nhập lần lượt từ bàn phím các giá trị A[0], A[1], A[2],… A[n]. Sau đó in ra mảng con tăng dài nhất của mảng A
+Ví dụ: Với mảng: {10, 22, 9, 33, 21, 51, 41, 60, 80},
+dãy con tăng dài nhất là {10, 22, 33, 51, 60, 80}.

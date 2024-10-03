@@ -1,0 +1,6 @@
+7.	Cần có tổng 100.000đ từ 3 loại
+giấy bạc 1000đ, 2000đ, và 5000đ.
+Lập chương tình để tìm tất cả các phương án có thể.
+In kết quả dưới dạng:
+PA 1 ( số tờ 1 * 1000; số tờ 2 * 2000; số tờ 3 * 5000)
+(Mở rộng hơn: Số tiền nhập từ bàn phím)
