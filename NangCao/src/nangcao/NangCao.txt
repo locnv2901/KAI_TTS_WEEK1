@@ -1,0 +1,3 @@
+C1    Nguyen Van A       INDV      Ha Noi             a@gmail.com
+C2    Nguyen Thi B       CORP      Ha Noi             b@gmail.com
+C3    Nguyen Hoang C     VIP       Bac Ninh           c@gmail.com
